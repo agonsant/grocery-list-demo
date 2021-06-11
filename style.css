@@ -1,0 +1,63 @@
+.grocery-header{
+    background-color: #24292e;
+    text-align: center;
+}
+
+.grocery-title{
+    color: #ffffff;
+}
+
+.grocery-main-container{
+    text-align: center;
+}
+
+.grocery-add-input{
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    height: 40px;
+}
+
+.grocery-add-button{
+    height: 40px;
+    background-color: #24292e;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.grocery-list{
+    padding: 0;
+    list-style-type: none;
+}
+
+.grocery-list-item{
+    padding: 10px 15px;
+    border: 1px solid #24292e;
+    border-radius: 10px;
+    background-color: #FED3A9;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.grocery-list-item-text{
+    margin: 0;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.grocery-list-item-remove{
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: #AA4439;
+    font-weight: bold;
+}
+
+.grocery-share{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background-image: url("./whatsapp.svg");
+}

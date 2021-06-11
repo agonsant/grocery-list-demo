@@ -5,23 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Lista de la compra</h1>
+    <header class="grocery-header">
+        <h1 class="grocery-title">Lista de la compra</h1>
     </header>
-    <main>
+    <main class="grocery-main-container">
         <div>
-            <input />
-            <button>+</button>
+            <input class="grocery-add-input" />
+            <button class="grocery-add-button">+</button>
         </div>
-        <ul>
-            <li>
-                <p>Prueba</p>
-                <button>-</button>
+        <ul class="grocery-list">
+            <li class="grocery-list-item">
+                <p class="grocery-list-item-text">Tomates</p>
+                <button class="grocery-list-item-remove">-</button>
             </li>
         </ul>
-        <button>Compartir</button>
+        <a class="grocery-share"></a>
     </main>
 </body>
 </html>
