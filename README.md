@@ -1,4 +1,4 @@
-# grocery-list-demo
+# Build Grocery List Web App
 
 Un tutorial sobre cómo crear una web paso a paso para gestionar la lista de la compra
 
