@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <header class="grocery-header">
@@ -13,16 +14,12 @@
     </header>
     <main class="grocery-main-container">
         <div>
-            <input class="grocery-add-input" />
-            <button class="grocery-add-button">+</button>
+            <input id="add_input" class="grocery-add-input" />
+            <button onclick="addItem()" class="grocery-add-button">+</button>
         </div>
-        <ul class="grocery-list">
-            <li class="grocery-list-item">
-                <p class="grocery-list-item-text">Tomates</p>
-                <button class="grocery-list-item-remove">-</button>
-            </li>
+        <ul id="grocery_list" class="grocery-list">
         </ul>
-        <a class="grocery-share"></a>
+        <a onclick="shareWhatsApp()" class="grocery-share"></a>
     </main>
 </body>
 </html>
